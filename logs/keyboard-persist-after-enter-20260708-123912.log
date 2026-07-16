@@ -1,0 +1,20 @@
+--------- beginning of main
+07-08 12:39:51.953 D/InputAccessibilityService( 6343): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:39:51.955 D/InputActivity( 6343): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:39:51.955 D/InputActivity( 6343): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:39:51.955 D/InputActivity( 6343): Starting activity on secondary display: id=2, name=內置畫面
+--------- beginning of system
+07-08 12:39:51.957 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:39:51.966 I/ActivityTaskManager( 2242): The Process com.brucewang.inputaccessibility Already Exists in BG. So sending its PID: 6343
+07-08 12:39:51.968 D/InputActivity( 6343): Activity started successfully on secondary display
+07-08 12:39:51.971 I/ActivityTaskManager( 2242): The Process com.brucewang.inputaccessibility Already Exists in BG. So sending its PID: 6343
+07-08 12:39:52.006 D/InputAccessibilityService( 6343): handleViewFocused: Detected EditText
+07-08 12:39:52.007 D/InputAccessibilityService( 6343): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:39:52.009 D/InputAccessibilityService( 6343): handleViewFocused: Ignoring duplicate focused EditText
+07-08 12:39:52.019 D/InputActivity( 6343): Activity running on display: id=2, name=內置畫面
+07-08 12:39:52.149 I/ActivityTaskManager( 2242): Displayed com.brucewang.inputaccessibility/.InputActivity: +191ms
+07-08 12:39:52.153 D/InputAccessibilityService( 6343): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:39:52.281 D/InputAccessibilityService( 6343): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:39:52.299 D/InputActivity( 6343): Keeping browser target focus for text sync
+07-08 12:39:52.340 D/InputAccessibilityService( 6343): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:39:52.442 D/InputAccessibilityService( 6343): checkCurrentFocus: Ignoring event from our InputActivity

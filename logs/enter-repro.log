@@ -1,0 +1,80 @@
+--------- beginning of main
+07-08 12:02:22.975 D/InputAccessibilityService(21167): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=null, text=hh, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:02:22.976 D/InputActivity(21167): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:02:22.976 D/InputActivity(21167): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:02:22.976 D/InputActivity(21167): Starting activity on secondary display: id=2, name=內置畫面
+07-08 12:02:22.999 D/InputActivity(21167): Activity started successfully on secondary display
+07-08 12:02:23.021 D/InputActivity(21167): Activity running on display: id=2, name=內置畫面
+07-08 12:02:24.464 D/InputAccessibilityService(21167): handleViewFocused: Detected EditText
+07-08 12:02:24.472 D/InputAccessibilityService(21167): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:02:24.680 D/InputAccessibilityService(21167): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=null, text=hh, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:02:24.681 D/InputActivity(21167): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:02:24.681 D/InputActivity(21167): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:02:24.682 D/InputActivity(21167): Starting activity on secondary display: id=2, name=內置畫面
+07-08 12:02:24.691 D/InputActivity(21167): Activity started successfully on secondary display
+07-08 12:02:25.959 D/InputAccessibilityService(21167): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=null, text=hh, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:02:25.960 D/InputActivity(21167): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:02:25.960 D/InputActivity(21167): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:02:25.961 D/InputActivity(21167): Starting activity on secondary display: id=2, name=內置畫面
+07-08 12:02:25.970 D/InputActivity(21167): Activity started successfully on secondary display
+07-08 12:02:28.726 D/InputAccessibilityService(21167): handleViewFocused: Detected EditText
+07-08 12:02:28.729 D/InputAccessibilityService(21167): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:02:30.844 D/InputActivity(21167): === onDestroy() called ===
+07-08 12:02:31.503 D/InputAccessibilityService(21167): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:02:31.504 D/InputActivity(21167): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:02:31.504 D/InputActivity(21167): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:02:31.504 D/InputActivity(21167): Starting activity on secondary display: id=2, name=內置畫面
+07-08 12:02:31.514 D/InputActivity(21167): Activity started successfully on secondary display
+07-08 12:02:31.522 D/InputActivity(21167): Activity running on display: id=2, name=內置畫面
+07-08 12:02:31.566 D/InputAccessibilityService(21167): handleViewFocused: Detected EditText
+07-08 12:02:31.566 D/InputAccessibilityService(21167): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:02:34.508 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:34.532 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:34.538 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:34.701 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:34.702 D/InputActivity(21167): Browser delayed Enter result: true
+07-08 12:02:35.776 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:35.798 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:35.802 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:35.960 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:35.960 D/InputActivity(21167): Browser delayed Enter result: true
+07-08 12:02:36.009 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:36.034 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:36.040 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:36.198 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:36.198 D/InputActivity(21167): Browser delayed Enter result: true
+07-08 12:02:36.203 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:36.230 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:36.236 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:36.379 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:36.402 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:36.407 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:36.411 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:36.411 D/InputActivity(21167): Browser delayed Enter result: true
+07-08 12:02:36.512 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:36.537 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:36.541 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:36.566 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:36.566 D/InputActivity(21167): Browser delayed Enter result: true
+07-08 12:02:36.704 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:36.704 D/InputActivity(21167): Browser delayed Enter result: true
+07-08 12:02:40.680 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:40.704 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:40.711 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:40.838 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:40.865 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:40.871 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:40.877 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:40.877 D/InputActivity(21167): Browser delayed Enter result: true
+07-08 12:02:40.992 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:41.017 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:41.022 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:41.028 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:41.028 D/InputActivity(21167): Browser delayed Enter result: true
+07-08 12:02:41.126 D/InputActivity(21167): Triggering target action for IME action: GO
+07-08 12:02:41.154 D/InputActivity(21167): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=true, actions=2:CLEAR_FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342,16908372:Enter 鍵
+07-08 12:02:41.157 D/InputActivity(21167): Browser submit focusResult=false, clickResult=true
+07-08 12:02:41.180 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:41.180 D/InputActivity(21167): Browser delayed Enter result: true
+07-08 12:02:41.318 D/InputActivity(21167): Performed ACTION_IME_ENTER: hasAction=true, success=true
+07-08 12:02:41.318 D/InputActivity(21167): Browser delayed Enter result: true

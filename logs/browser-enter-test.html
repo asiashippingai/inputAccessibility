@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Browser Enter Test</title>
+  <style>
+    body { font: 32px sans-serif; margin: 0; padding: 8vh 8vw; }
+    form { display: grid; gap: 24px; }
+    input { box-sizing: border-box; font-size: 32px; height: 96px; padding: 16px; width: 84vw; }
+    button { font-size: 28px; height: 72px; width: 240px; }
+  </style>
+</head>
+<body>
+  <p id="status">READY</p>
+  <form action="/browser-enter-test.html" method="get">
+    <input name="entered" placeholder="Generic form field" autocomplete="off" autofocus>
+    <button type="submit">Submit</button>
+  </form>
+  <script>
+    const value = new URLSearchParams(location.search).get("entered");
+    if (value !== null) document.querySelector("#status").textContent = `SUBMITTED:${value}`;
+  </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+127.0.0.1 - - [10/Jul/2026 10:16:11] "GET /browser-enter-test.html?run=0710e HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jul/2026 10:16:16] "GET /browser-enter-test.html?entered=codexenter0710 HTTP/1.1" 200 -

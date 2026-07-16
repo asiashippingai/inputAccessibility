@@ -1,0 +1,208 @@
+--------- beginning of main
+07-08 12:29:34.810 D/InputActivity(32124): Triggering target action for IME action: GO
+07-08 12:29:34.855 D/InputActivity(32124): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=false, actions=1:FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,2097152:SET_TEXT,16908342:ACTION_16908342
+07-08 12:29:34.855 D/InputActivity(32124): Browser intent submit result: false, package=com.android.chrome, text=
+07-08 12:29:34.925 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:35.048 D/InputActivity(32124): Ignoring duplicate Enter submit
+07-08 12:29:35.293 D/InputActivity(32124): Ignoring duplicate Enter submit
+07-08 12:29:35.489 D/InputActivity(32124): Ignoring duplicate Enter submit
+07-08 12:29:35.904 D/InputActivity(32124): Triggering target action for IME action: GO
+07-08 12:29:35.938 D/InputActivity(32124): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=false, actions=1:FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,2097152:SET_TEXT,16908342:ACTION_16908342
+07-08 12:29:35.938 D/InputActivity(32124): Browser intent submit result: false, package=com.android.chrome, text=
+07-08 12:29:36.585 D/InputAccessibilityService(32124): handleViewFocused: Detected EditText
+07-08 12:29:36.597 D/InputAccessibilityService(32124): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:29:36.598 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:36.607 D/InputActivity(32124): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:29:36.608 D/InputActivity(32124): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:29:36.608 D/InputActivity(32124): Bringing activity to secondary display: id=2, name=內置畫面
+--------- beginning of system
+07-08 12:29:36.609 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:29:36.620 D/InputActivity(32124): Activity brought to secondary display successfully
+07-08 12:29:36.629 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:29:36.684 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:36.700 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:36.710 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 0 from window: 2
+07-08 12:29:36.759 D/InputActivity(32124): Cleared target focus for persistent keyboard: true
+07-08 12:29:36.777 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:36.823 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:36.863 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:36.865 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:36.924 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:37.929 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:38.113 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:38.298 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:38.483 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:39.002 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:39.184 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:39.383 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:39.554 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:40.535 D/InputActivity(32124): Triggering target action for IME action: GO
+07-08 12:29:40.561 D/InputActivity(32124): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=false, actions=1:FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,2097152:SET_TEXT,16908342:ACTION_16908342
+07-08 12:29:40.561 D/InputActivity(32124): Browser intent submit result: false, package=com.android.chrome, text=
+07-08 12:29:41.612 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 0 from window: 2
+07-08 12:29:41.677 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:41.714 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:41.726 D/InputAccessibilityService(32124): handleViewFocused: Detected EditText
+07-08 12:29:41.728 D/InputAccessibilityService(32124): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:29:41.728 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:41.736 D/InputActivity(32124): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:29:41.736 D/InputActivity(32124): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:29:41.736 D/InputActivity(32124): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:29:41.737 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:29:41.742 D/InputActivity(32124): Activity brought to secondary display successfully
+07-08 12:29:41.828 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:41.844 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 0 from window: 2
+07-08 12:29:41.885 D/InputActivity(32124): Cleared target focus for persistent keyboard: true
+07-08 12:29:41.897 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:41.934 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:41.987 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:41.990 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:42.034 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:43.214 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:43.218 D/InputActivity(32124): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:29:43.218 D/InputActivity(32124): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:29:43.218 D/InputActivity(32124): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:29:43.219 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:29:43.225 D/InputActivity(32124): Activity brought to secondary display successfully
+07-08 12:29:43.233 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:29:43.270 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:43.306 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:43.370 D/InputActivity(32124): Cleared target focus for persistent keyboard: true
+07-08 12:29:43.403 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:43.407 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:43.412 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:43.469 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:43.471 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:43.507 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:45.050 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:45.060 D/InputActivity(32124): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:29:45.060 D/InputActivity(32124): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:29:45.061 D/InputActivity(32124): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:29:45.063 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:29:45.071 D/InputActivity(32124): Activity brought to secondary display successfully
+07-08 12:29:45.094 D/InputAccessibilityService(32124): handleViewFocused: Detected EditText
+07-08 12:29:45.094 D/InputAccessibilityService(32124): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:29:45.094 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:45.104 D/InputActivity(32124): Skipping duplicate secondary display launch
+07-08 12:29:45.149 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:45.173 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 0 from window: 2
+07-08 12:29:45.192 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:45.245 D/InputActivity(32124): Cleared target focus for persistent keyboard: true
+07-08 12:29:45.250 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:45.256 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:45.294 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:45.346 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:45.347 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:45.393 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:46.368 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:46.375 D/InputActivity(32124): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:29:46.375 D/InputActivity(32124): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:29:46.375 D/InputActivity(32124): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:29:46.377 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:29:46.385 D/InputActivity(32124): Activity brought to secondary display successfully
+07-08 12:29:46.394 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:29:46.415 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:46.425 D/InputAccessibilityService(32124): handleViewFocused: Detected EditText
+07-08 12:29:46.436 D/InputAccessibilityService(32124): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:29:46.436 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:46.440 D/InputActivity(32124): Skipping duplicate secondary display launch
+07-08 12:29:46.513 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:46.529 D/InputActivity(32124): Cleared target focus for persistent keyboard: true
+07-08 12:29:46.568 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:46.572 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:46.625 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:46.628 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:46.630 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:46.728 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:47.796 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:47.804 D/InputActivity(32124): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:29:47.804 D/InputActivity(32124): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:29:47.805 D/InputActivity(32124): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:29:47.807 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:29:47.817 D/InputActivity(32124): Activity brought to secondary display successfully
+07-08 12:29:47.831 D/InputAccessibilityService(32124): handleViewFocused: Detected EditText
+07-08 12:29:47.831 D/InputAccessibilityService(32124): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:29:47.831 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:47.839 D/InputActivity(32124): Skipping duplicate secondary display launch
+07-08 12:29:47.871 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:47.899 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:47.903 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 0 from window: 2
+07-08 12:29:47.970 D/InputActivity(32124): Cleared target focus for persistent keyboard: true
+07-08 12:29:47.976 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:47.989 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:48.014 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:48.069 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:48.071 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:48.115 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:50.043 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:50.052 D/InputActivity(32124): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:29:50.053 D/InputActivity(32124): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:29:50.053 D/InputActivity(32124): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:29:50.057 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:29:50.067 D/InputActivity(32124): Activity brought to secondary display successfully
+07-08 12:29:50.081 D/InputAccessibilityService(32124): handleViewFocused: Detected EditText
+07-08 12:29:50.081 D/InputAccessibilityService(32124): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:29:50.082 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:29:50.096 D/InputActivity(32124): Skipping duplicate secondary display launch
+07-08 12:29:50.131 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:50.147 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:50.153 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 0 from window: 2
+07-08 12:29:50.233 D/InputActivity(32124): Cleared target focus for persistent keyboard: true
+07-08 12:29:50.246 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:50.251 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:29:50.264 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:50.333 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:50.335 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:50.365 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:58.401 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:29:58.498 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:00.117 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:00.215 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:01.534 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:04.476 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:04.571 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:10.649 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:13.584 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:13.684 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:16.543 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:30:16.553 D/InputActivity(32124): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:30:16.553 D/InputActivity(32124): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:30:16.553 D/InputActivity(32124): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:30:16.555 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:30:16.568 D/InputActivity(32124): Activity brought to secondary display successfully
+07-08 12:30:16.584 D/InputAccessibilityService(32124): handleViewFocused: Detected EditText
+07-08 12:30:16.584 D/InputAccessibilityService(32124): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:30:16.585 D/InputAccessibilityService(32124): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:30:16.596 D/InputActivity(32124): Skipping duplicate secondary display launch
+07-08 12:30:16.611 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:16.632 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:16.635 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 0 from window: 2
+07-08 12:30:16.710 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:16.730 D/InputActivity(32124): Cleared target focus for persistent keyboard: true
+07-08 12:30:16.737 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:30:16.742 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:16.754 D/InputActivity(32124): Cleared target focus for persistent keyboard: false
+07-08 12:30:16.830 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:16.832 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:16.857 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:17.565 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:17.792 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:17.978 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:18.164 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:18.341 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:18.521 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:18.699 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:18.883 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:19.049 D/InputAccessibilityService(32124): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:30:19.627 D/InputActivity(32124): Triggering target action for IME action: GO
+07-08 12:30:19.653 D/InputActivity(32124): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=false, actions=1:FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342
+07-08 12:30:19.656 I/ActivityTaskManager( 2242): START u0 {act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https://www.google.com/... flg=0x10000000 pkg=com.android.chrome cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher} from uid 10182
+07-08 12:30:19.665 D/InputActivity(32124): Browser intent submit result: true, package=com.android.chrome, text=rttfggggy
+07-08 12:30:19.679 I/ActivityTaskManager( 2242): The Process com.android.chrome Already Exists in BG. So sending its PID: 17836
+07-08 12:30:19.679 W/ActivityTaskManager( 2242): Tried to set launchTime (0) < mLastActivityLaunchTime (5186754)
+07-08 12:30:19.688 I/ActivityTaskManager( 2242): START u0 {act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https://www.google.com/... flg=0x14002000 pkg=com.android.chrome cmp=com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity (has extras)} from uid 10096
+07-08 12:30:19.790 D/InputAccessibilityService(32124): packageName: com.android.chrome
+07-08 12:30:19.790 D/InputAccessibilityService(32124): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:30:19.790 D/InputAccessibilityService(32124): hideInputActivity: Closing InputActivity
+07-08 12:30:19.790 D/InputActivity(32124): Keeping InputActivity open and detaching target
+07-08 12:30:19.828 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0

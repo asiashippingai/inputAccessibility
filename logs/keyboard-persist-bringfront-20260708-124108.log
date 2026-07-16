@@ -1,0 +1,484 @@
+--------- beginning of main
+07-08 12:41:08.998 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:09.016 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:09.079 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:09.408 D/InputActivity( 7423): Keeping keyboard visible after submit: delayMs=900
+07-08 12:41:09.409 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:09.409 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:09.409 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+--------- beginning of system
+07-08 12:41:09.410 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:09.414 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:09.415 D/InputActivity( 7423): onNewIntent: reshow keyboard only
+07-08 12:41:09.538 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:09.539 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:09.650 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:10.008 D/InputActivity( 7423): Keeping keyboard visible after submit: delayMs=1500
+07-08 12:41:10.009 D/InputActivity( 7423): Skipping duplicate secondary display launch
+07-08 12:41:10.131 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:10.909 D/InputActivity( 7423): Keeping keyboard visible after submit: delayMs=2400
+07-08 12:41:10.910 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:10.910 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:10.910 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:10.911 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:10.914 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:10.915 D/InputActivity( 7423): onNewIntent: reshow keyboard only
+07-08 12:41:11.037 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:11.038 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:14.730 D/InputActivity( 7423): Sync text to target: refreshed=true, setText=true, selection=false, length=6, browser=true
+07-08 12:41:14.818 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:14.922 D/InputActivity( 7423): Sync text to target: refreshed=true, setText=true, selection=false, length=7, browser=true
+07-08 12:41:15.010 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:15.110 D/InputActivity( 7423): Sync text to target: refreshed=true, setText=true, selection=false, length=8, browser=true
+07-08 12:41:15.197 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:15.295 D/InputActivity( 7423): Sync text to target: refreshed=true, setText=true, selection=false, length=9, browser=true
+07-08 12:41:15.337 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:15.381 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:15.434 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:15.490 D/InputActivity( 7423): Sync text to target: refreshed=true, setText=true, selection=false, length=10, browser=true
+07-08 12:41:15.578 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:15.717 D/InputActivity( 7423): Sync text to target: refreshed=true, setText=true, selection=false, length=11, browser=true
+07-08 12:41:15.805 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:15.884 D/InputActivity( 7423): Sync text to target: refreshed=true, setText=true, selection=false, length=12, browser=true
+07-08 12:41:15.971 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:16.817 D/InputActivity( 7423): Triggering target action for IME action: GO
+07-08 12:41:16.842 D/InputActivity( 7423): Sync text to target: refreshed=true, setText=true, selection=false, length=12, browser=true
+07-08 12:41:16.858 D/InputActivity( 7423): Sync text to target: refreshed=true, setText=true, selection=false, length=12, browser=true
+07-08 12:41:16.861 D/InputActivity( 7423): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=false, actions=1:FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342
+07-08 12:41:16.865 I/ActivityTaskManager( 2242): START u0 {act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https://www.google.com/... flg=0x10000000 pkg=com.android.chrome cmp=com.android.chrome/com.google.android.apps.chrome.IntentDispatcher} from uid 10182
+07-08 12:41:16.880 D/InputActivity( 7423): Browser intent submit result: true, package=com.android.chrome, text=yyyhhhhhhhhh
+07-08 12:41:16.891 I/ActivityTaskManager( 2242): The Process com.android.chrome Already Exists in BG. So sending its PID: 2034
+07-08 12:41:16.891 W/ActivityTaskManager( 2242): Tried to set launchTime (0) < mLastActivityLaunchTime (6002285)
+07-08 12:41:16.905 I/ActivityTaskManager( 2242): START u0 {act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https://www.google.com/... flg=0x14002000 pkg=com.android.chrome cmp=com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity (has extras)} from uid 10096
+07-08 12:41:17.034 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:17.034 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:17.034 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:17.034 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:17.037 D/InputActivity( 7423): Keeping keyboard visible after submit: delayMs=150
+07-08 12:41:17.038 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:17.038 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:17.038 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:17.039 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:17.050 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:17.058 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:17.061 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:17.062 D/InputActivity( 7423): onNewIntent: reshow keyboard only
+07-08 12:41:17.063 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:17.067 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:17.077 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:17.078 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:17.078 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:17.081 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:17.103 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:17.142 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:17.221 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:17.223 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:17.232 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:17.330 D/InputActivity( 7423): Keeping keyboard visible after submit: delayMs=450
+07-08 12:41:17.330 D/InputActivity( 7423): Skipping duplicate secondary display launch
+07-08 12:41:17.780 D/InputActivity( 7423): Keeping keyboard visible after submit: delayMs=900
+07-08 12:41:17.781 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:17.781 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:17.781 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:17.782 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:17.786 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:17.788 D/InputActivity( 7423): onNewIntent: reshow keyboard only
+07-08 12:41:18.283 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:18.288 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:18.290 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:18.380 D/InputActivity( 7423): Keeping keyboard visible after submit: delayMs=1500
+07-08 12:41:18.380 D/InputActivity( 7423): Skipping duplicate secondary display launch
+07-08 12:41:18.448 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:18.884 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:18.886 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:18.888 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:18.984 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.083 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.128 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.187 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.280 D/InputActivity( 7423): Keeping keyboard visible after submit: delayMs=2400
+07-08 12:41:19.281 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:19.281 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:19.281 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:19.282 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:19.285 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:19.286 D/InputActivity( 7423): onNewIntent: reshow keyboard only
+07-08 12:41:19.400 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.403 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.405 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.614 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.616 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.618 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:19.619 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:20.494 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.245 D/InputAccessibilityService( 7423): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=yyyhhhhhhhhh, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:41:26.261 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:26.261 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:26.261 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:26.262 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:26.267 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:26.306 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.309 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.311 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.314 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.316 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.317 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:26.325 D/InputAccessibilityService( 7423): handleViewFocused: Detected EditText
+07-08 12:41:26.327 D/InputAccessibilityService( 7423): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:41:26.327 D/InputAccessibilityService( 7423): handleViewFocused: Ignoring duplicate focused EditText
+07-08 12:41:26.359 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.361 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.363 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.379 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.380 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.437 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:26.462 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:26.476 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:29.063 D/InputAccessibilityService( 7423): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:41:29.068 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:29.068 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:29.068 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:29.069 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:29.074 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:29.078 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:29.080 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:29.082 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:29.085 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:29.124 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:29.126 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:29.127 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:29.138 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:29.140 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:29.205 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:29.233 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:29.237 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:32.740 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:32.740 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:32.741 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:32.741 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:32.857 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:32.857 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:32.857 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:32.936 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:32.937 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:33.368 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:33.368 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:33.368 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:33.390 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:35.564 D/InputAccessibilityService( 7423): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:41:35.568 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:35.569 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:35.569 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:35.569 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:35.577 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:35.591 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.597 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.628 D/InputAccessibilityService( 7423): handleViewFocused: Detected EditText
+07-08 12:41:35.634 D/InputAccessibilityService( 7423): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:41:35.634 D/InputAccessibilityService( 7423): handleViewFocused: Ignoring duplicate focused EditText
+07-08 12:41:35.636 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.639 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:35.652 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.654 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.732 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.760 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:35.786 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:35.924 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.926 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.927 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.929 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:35.933 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:37.173 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:37.173 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:37.173 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:37.182 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:37.182 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:37.182 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:37.192 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:37.192 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:37.192 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:37.208 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:37.208 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:37.208 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:37.315 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:37.315 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:37.315 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:37.315 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:37.326 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:37.326 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:37.326 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:37.346 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:37.353 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:37.365 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:37.366 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:37.366 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:37.389 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:38.158 D/InputAccessibilityService( 7423): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:41:38.166 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:38.166 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:38.167 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:38.168 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:38.174 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:38.185 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.187 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.188 D/InputAccessibilityService( 7423): handleViewFocused: Detected EditText
+07-08 12:41:38.189 D/InputAccessibilityService( 7423): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:41:38.189 D/InputAccessibilityService( 7423): handleViewFocused: Ignoring duplicate focused EditText
+07-08 12:41:38.192 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.195 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:38.225 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.246 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.315 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:38.338 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.338 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:38.501 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.503 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.504 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.603 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:38.604 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:39.405 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.405 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.405 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:39.409 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.409 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.409 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:39.412 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.412 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.412 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:39.419 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.419 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.419 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:39.457 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.457 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.457 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:39.458 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:39.459 D/InputAccessibilityService( 7423): Suppressing focus-loss detach after reclaiming keyboard
+07-08 12:41:39.498 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.498 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.498 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:39.548 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.548 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.548 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:39.789 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.789 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.789 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:39.799 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.799 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.799 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:39.801 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:39.803 D/InputAccessibilityService( 7423): Suppressing focus-loss detach after reclaiming keyboard
+07-08 12:41:39.913 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:39.913 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:39.913 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:39.913 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:39.939 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:40.502 D/InputAccessibilityService( 7423): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:41:40.510 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:40.511 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:40.511 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:40.512 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:40.522 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:40.547 D/InputAccessibilityService( 7423): handleViewFocused: Detected EditText
+07-08 12:41:40.548 D/InputAccessibilityService( 7423): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:41:40.548 D/InputAccessibilityService( 7423): handleViewFocused: Ignoring duplicate focused EditText
+07-08 12:41:40.550 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.552 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.554 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.556 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:40.575 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.594 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.677 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:40.685 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.702 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:40.875 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.877 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.879 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.975 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:40.977 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:41.393 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.393 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.393 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:41.397 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.397 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.397 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:41.402 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.403 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.403 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:41.408 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.408 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.409 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:41.445 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.445 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.445 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:41.447 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:41.448 D/InputAccessibilityService( 7423): Suppressing focus-loss detach after reclaiming keyboard
+07-08 12:41:41.485 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.485 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.485 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:41.528 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.528 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.528 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:41.797 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.797 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.797 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:41.807 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.809 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.809 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:41.813 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:41.813 D/InputAccessibilityService( 7423): Suppressing focus-loss detach after reclaiming keyboard
+07-08 12:41:41.880 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:41.880 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:41.880 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:42.113 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:42.113 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:42.113 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:42.487 D/InputAccessibilityService( 7423): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:41:42.497 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:42.497 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:42.497 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:42.498 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:42.504 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:42.517 D/InputAccessibilityService( 7423): handleViewFocused: Detected EditText
+07-08 12:41:42.517 D/InputAccessibilityService( 7423): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:41:42.517 D/InputAccessibilityService( 7423): handleViewFocused: Ignoring duplicate focused EditText
+07-08 12:41:42.520 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.532 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.534 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.537 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:42.566 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.581 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.657 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:42.680 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.684 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:42.849 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.851 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.852 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.951 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:42.953 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:43.525 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:43.525 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:43.525 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:43.528 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:43.528 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:43.528 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:43.531 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:43.531 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:43.531 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:43.535 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:43.535 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:43.535 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:43.579 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:43.579 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:43.579 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:43.580 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:43.580 D/InputAccessibilityService( 7423): Suppressing focus-loss detach after reclaiming keyboard
+07-08 12:41:43.624 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:43.624 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:43.625 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:43.671 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:43.671 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:43.671 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:43.892 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:43.893 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:43.893 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:43.902 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:43.902 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:43.903 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:43.904 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:43.904 D/InputAccessibilityService( 7423): Suppressing focus-loss detach after reclaiming keyboard
+07-08 12:41:44.017 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:44.018 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:44.018 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:44.244 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:44.245 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:44.245 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:44.245 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:44.270 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:44.738 D/InputAccessibilityService( 7423): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:41:44.744 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:44.744 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:44.744 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:44.745 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:44.751 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:44.800 D/InputAccessibilityService( 7423): handleViewFocused: Detected EditText
+07-08 12:41:44.800 D/InputAccessibilityService( 7423): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:41:44.800 D/InputAccessibilityService( 7423): handleViewFocused: Ignoring duplicate focused EditText
+07-08 12:41:44.803 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:44.804 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:44.806 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:44.808 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:44.821 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:44.836 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:44.929 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:44.939 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:44.953 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:45.273 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:45.274 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:45.275 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:45.373 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:45.375 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:45.894 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:45.894 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:45.894 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:45.900 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:45.900 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:45.900 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:45.907 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:45.907 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:45.907 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:45.911 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:45.911 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:45.911 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:45.930 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:45.931 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:45.931 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:45.935 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:45.937 D/InputAccessibilityService( 7423): Suppressing focus-loss detach after reclaiming keyboard
+07-08 12:41:46.004 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:46.004 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:46.004 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:46.055 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:46.055 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:46.055 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:46.278 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:46.278 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:46.279 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:46.290 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:46.290 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:46.290 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:46.293 D/InputAccessibilityService( 7423): handleViewFocused: Focused view is not EditText
+07-08 12:41:46.294 D/InputAccessibilityService( 7423): Suppressing focus-loss detach after reclaiming keyboard
+07-08 12:41:46.339 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:46.339 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:46.339 D/InputAccessibilityService( 7423): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:41:46.591 D/InputAccessibilityService( 7423): packageName: com.android.chrome
+07-08 12:41:46.591 D/InputAccessibilityService( 7423): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:41:46.591 D/InputAccessibilityService( 7423): hideInputActivity: Closing InputActivity
+07-08 12:41:46.592 D/InputActivity( 7423): Keeping InputActivity open and detaching target
+07-08 12:41:46.627 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:46.858 D/InputAccessibilityService( 7423): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:41:46.867 D/InputActivity( 7423): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:41:46.867 D/InputActivity( 7423): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:41:46.867 D/InputActivity( 7423): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:41:46.869 I/ActivityTaskManager( 2242): START u0 {flg=0x30020000 cmp=com.brucewang.inputaccessibility/.InputActivity (has extras)} from uid 10182
+07-08 12:41:46.875 D/InputActivity( 7423): Activity brought to secondary display successfully
+07-08 12:41:46.909 D/InputAccessibilityService( 7423): handleViewFocused: Detected EditText
+07-08 12:41:46.909 D/InputAccessibilityService( 7423): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:41:46.909 D/InputAccessibilityService( 7423): handleViewFocused: Ignoring duplicate focused EditText
+07-08 12:41:46.912 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:46.913 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:46.915 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:46.917 E/WindowManager( 2242): isInputMethodClientFocus: display ID mismatch. from client: 2 from window: 0
+07-08 12:41:46.943 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:46.949 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:47.038 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:47.048 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:47.061 D/InputActivity( 7423): Keeping browser target focus for text sync
+07-08 12:41:47.198 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:47.210 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:47.212 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:47.214 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:47.311 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:47.313 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:51.574 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity
+07-08 12:41:51.673 D/InputAccessibilityService( 7423): checkCurrentFocus: Ignoring event from our InputActivity

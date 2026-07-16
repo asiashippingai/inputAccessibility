@@ -3,6 +3,8 @@ package com.brucewang.inputaccessibility
 import android.accessibilityservice.AccessibilityService
 import android.hardware.display.DisplayManager
 import android.os.Build
+import android.os.SystemClock
+import android.text.InputType
 import android.util.Log
 import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
@@ -11,6 +13,16 @@ class InputAccessibilityService : AccessibilityService() {
 
     companion object {
         private const val TAG = "InputAccessibilityService"
+        private var suppressBrowserFocusUntilMs = 0L
+        private var suppressFocusLossUntilMs = 0L
+
+        fun suppressBrowserFocusForNavigation() {
+            suppressBrowserFocusUntilMs = SystemClock.elapsedRealtime() + 2000L
+        }
+
+        fun suppressFocusLossDetach() {
+            suppressFocusLossUntilMs = SystemClock.elapsedRealtime() + 1500L
+        }
     }
 
     private var currentFocusedEditText: AccessibilityNodeInfo? = null
@@ -69,7 +81,14 @@ class InputAccessibilityService : AccessibilityService() {
                     Log.d(TAG, "handleViewFocused: className=${source.className}, isEditable=${source.isEditable}, isFocusable=${source.isFocusable}")
 
                     // 即使是同一个EditText，如果InputActivity已关闭，也应该重新显示
-                    if (!isInputActivityShown) {
+                    if (isInputActivityShown &&
+                        InputActivity.isKeepOpenEnabled(this) &&
+                        isSameFocusedNode(currentFocusedEditText, source)
+                    ) {
+                        Log.d(TAG, "handleViewFocused: Ignoring duplicate focused EditText")
+                        return
+                    }
+                    if (!isInputActivityShown || InputActivity.isKeepOpenEnabled(this)) {
                         currentFocusedEditText = source
                         showInputActivityForEditText(source)
                     }
@@ -78,6 +97,10 @@ class InputAccessibilityService : AccessibilityService() {
                 Log.d(TAG, "handleViewFocused: Focused view is not EditText")
                 // 如果焦点移出EditText，且不是移到我们的应用
                 if (!isFromOurApp(source)) {
+                    if (shouldSuppressFocusLossDetach()) {
+                        Log.d(TAG, "Suppressing focus-loss detach after reclaiming keyboard")
+                        return
+                    }
                     hideInputActivity()
                 }
             }
@@ -98,7 +121,7 @@ class InputAccessibilityService : AccessibilityService() {
 
     private fun checkCurrentFocus(event: AccessibilityEvent) {
         // 如果InputActivity正在显示，不进行检查
-        if (isInputActivityShown) {
+        if (isInputActivityShown && !InputActivity.isKeepOpenEnabled(this)) {
             return
         }
 
@@ -114,11 +137,22 @@ class InputAccessibilityService : AccessibilityService() {
                     // Log.d(TAG, "checkCurrentFocus: Ignoring event from com.ayaneo.gamewindow")
                     return
                 }
+                if (packageName == this.packageName) {
+                    Log.d(TAG, "checkCurrentFocus: Ignoring event from our InputActivity")
+                    return
+                }
 
                 val focusedNode = findFocusedEditText(root)
                 if (focusedNode != null && !isFromOurApp(focusedNode)) {
                     // 如果发现有EditText获得焦点，且InputActivity未显示，则显示
-                    if (!isInputActivityShown) {
+                    if (isInputActivityShown &&
+                        InputActivity.isKeepOpenEnabled(this) &&
+                        isSameFocusedNode(currentFocusedEditText, focusedNode)
+                    ) {
+                        Log.d(TAG, "checkCurrentFocus: Ignoring duplicate focused EditText")
+                        return
+                    }
+                    if (!isInputActivityShown || InputActivity.isKeepOpenEnabled(this)) {
                         currentFocusedEditText = focusedNode
                         showInputActivityForEditText(focusedNode)
                     }
@@ -126,6 +160,10 @@ class InputAccessibilityService : AccessibilityService() {
                     // EditText失去焦点
                     Log.d(TAG, "packageName: " + root.packageName)
                     Log.d(TAG, "checkCurrentFocus: No focused EditText found, hiding InputActivity")
+                    if (shouldSuppressFocusLossDetach()) {
+                        Log.d(TAG, "Suppressing no-focus detach after reclaiming keyboard")
+                        return
+                    }
                     hideInputActivity()
                 }
             }
@@ -146,6 +184,19 @@ class InputAccessibilityService : AccessibilityService() {
         }
 
         return null
+    }
+
+    private fun isSameFocusedNode(
+        oldNode: AccessibilityNodeInfo?,
+        newNode: AccessibilityNodeInfo?
+    ): Boolean {
+        if (oldNode == null || newNode == null) {
+            return false
+        }
+        return oldNode.windowId == newNode.windowId &&
+                oldNode.packageName?.toString() == newNode.packageName?.toString() &&
+                oldNode.viewIdResourceName == newNode.viewIdResourceName &&
+                oldNode.className?.toString() == newNode.className?.toString()
     }
 
     private fun isEditText(node: AccessibilityNodeInfo): Boolean {
@@ -169,12 +220,26 @@ class InputAccessibilityService : AccessibilityService() {
         return false
     }
 
+    private fun shouldSuppressFocusLossDetach(): Boolean {
+        return InputActivity.isKeepOpenEnabled(this) &&
+                SystemClock.elapsedRealtime() < suppressFocusLossUntilMs
+    }
+
     private fun showInputActivityForEditText(editTextNode: AccessibilityNodeInfo) {
         try {
             // 获取EditText的相关信息
             val hint = editTextNode.hintText?.toString()
             val text = editTextNode.text?.toString()
             val inputType = editTextNode.inputType
+            val contentDesc = editTextNode.contentDescription?.toString()
+            val viewId = editTextNode.viewIdResourceName
+            val packageName = editTextNode.packageName?.toString()
+            val browserSubmitField = looksLikeBrowserAddressOrSearchField(hint, contentDesc, viewId, packageName)
+
+            if (browserSubmitField && SystemClock.elapsedRealtime() < suppressBrowserFocusUntilMs) {
+                Log.d(TAG, "Suppressing browser focus after navigation: package=$packageName, viewId=$viewId")
+                return
+            }
 
             // 如果文本等于hint且没有选择范围，清空文本以便用户输入
             var textToSend = text
@@ -182,9 +247,22 @@ class InputAccessibilityService : AccessibilityService() {
                 textToSend = ""
             }
             // 根据hint和文本内容推断IME选项
-            val imeOptions = inferImeOptions(hint, text, editTextNode.contentDescription?.toString())
+            val imeOptions = inferImeOptions(hint, text, contentDesc, viewId, packageName, browserSubmitField)
+            val allowEnterAsNewline = shouldAllowEnterAsNewline(
+                inputType = inputType,
+                imeOptions = imeOptions,
+                hint = hint,
+                contentDesc = contentDesc,
+                viewId = viewId,
+                packageName = packageName
+            )
 
-            Log.d(TAG, "Showing InputActivity for EditText: hint=$hint, text=$text, inputType=$inputType, imeOptions=$imeOptions")
+            Log.d(
+                TAG,
+                "Showing InputActivity for EditText: package=$packageName, viewId=$viewId, " +
+                        "hint=$hint, text=$text, inputType=$inputType, imeOptions=$imeOptions, " +
+                        "allowEnterAsNewline=$allowEnterAsNewline, browserSubmitField=$browserSubmitField"
+            )
 
             // 启动InputActivity
             InputActivity.start(
@@ -192,8 +270,10 @@ class InputAccessibilityService : AccessibilityService() {
                 editTextNode = editTextNode,
                 hint = hint,
                 text = textToSend,
-                inputType = if (inputType != 0) inputType else android.text.InputType.TYPE_CLASS_TEXT,
-                imeOptions = imeOptions
+                inputType = if (inputType != 0) inputType else InputType.TYPE_CLASS_TEXT,
+                imeOptions = imeOptions,
+                allowEnterAsNewline = allowEnterAsNewline,
+                browserSubmitField = browserSubmitField
             )
 
             isInputActivityShown = true
@@ -202,16 +282,46 @@ class InputAccessibilityService : AccessibilityService() {
         }
     }
 
-    private fun inferImeOptions(hint: String?, text: String?, contentDesc: String?): Int {
+    private fun inferImeOptions(
+        hint: String?,
+        text: String?,
+        contentDesc: String?,
+        viewId: String?,
+        packageName: String?,
+        browserSubmitField: Boolean
+    ): Int {
         val hintLower = hint?.lowercase() ?: ""
         val textLower = text?.lowercase() ?: ""
         val descLower = contentDesc?.lowercase() ?: ""
+        val viewIdLower = viewId?.lowercase() ?: ""
+        val packageLower = packageName?.lowercase() ?: ""
+
+        val searchTokens = listOf("搜索", "搜尋", "search", "查询", "查詢")
+        val browserAddressTokens = listOf("url", "uri", "address", "网址", "網址", "web address", "url_bar", "search_box")
+        val browserPackages = listOf(
+            "com.android.chrome",
+            "com.chrome",
+            "com.google.android.apps.chrome",
+            "com.microsoft.emmx",
+            "com.microsoft.emmx.canary",
+            "com.microsoft.emmx.dev",
+            "com.microsoft.emmx.beta"
+        )
 
         return when {
+            // 浏览器地址栏
+            browserSubmitField -> {
+                android.view.inputmethod.EditorInfo.IME_ACTION_GO
+            }
             // 搜索框
-            hintLower.contains("搜索") || hintLower.contains("search") ||
-            textLower.contains("搜索") || textLower.contains("search") ||
-            descLower.contains("搜索") || descLower.contains("search") -> {
+            containsAny(hintLower, searchTokens) ||
+            containsAny(textLower, searchTokens) ||
+            containsAny(descLower, searchTokens) ||
+            containsAny(viewIdLower, searchTokens) ||
+            (containsAny(packageLower, browserPackages) &&
+                    (containsAny(hintLower, browserAddressTokens) ||
+                            containsAny(descLower, browserAddressTokens) ||
+                            containsAny(viewIdLower, browserAddressTokens))) -> {
                 android.view.inputmethod.EditorInfo.IME_ACTION_SEARCH
             }
             // 发送/提交
@@ -243,6 +353,82 @@ class InputAccessibilityService : AccessibilityService() {
             // 默认使用完成
             else -> android.view.inputmethod.EditorInfo.IME_ACTION_DONE
         }
+    }
+
+    private fun containsAny(value: String, tokens: List<String>): Boolean {
+        return tokens.any { value.contains(it) }
+    }
+
+    private fun shouldAllowEnterAsNewline(
+        inputType: Int,
+        imeOptions: Int,
+        hint: String?,
+        contentDesc: String?,
+        viewId: String?,
+        packageName: String?
+    ): Boolean {
+        val isMultiline = inputType and InputType.TYPE_TEXT_FLAG_MULTI_LINE != 0
+        if (!isMultiline) {
+            return false
+        }
+
+        val action = imeOptions and android.view.inputmethod.EditorInfo.IME_MASK_ACTION
+        if (action == android.view.inputmethod.EditorInfo.IME_ACTION_SEARCH ||
+            action == android.view.inputmethod.EditorInfo.IME_ACTION_SEND ||
+            action == android.view.inputmethod.EditorInfo.IME_ACTION_GO ||
+            action == android.view.inputmethod.EditorInfo.IME_ACTION_NEXT ||
+            action == android.view.inputmethod.EditorInfo.IME_ACTION_PREVIOUS
+        ) {
+            return false
+        }
+
+        return !looksLikeBrowserAddressOrSearchField(hint, contentDesc, viewId, packageName)
+    }
+
+    private fun looksLikeBrowserAddressOrSearchField(
+        hint: String?,
+        contentDesc: String?,
+        viewId: String?,
+        packageName: String?
+    ): Boolean {
+        val packageLower = packageName?.lowercase() ?: ""
+        val browserPackages = listOf(
+            "com.android.chrome",
+            "com.chrome",
+            "com.google.android.apps.chrome",
+            "com.microsoft.emmx",
+            "com.microsoft.emmx.canary",
+            "com.microsoft.emmx.dev",
+            "com.microsoft.emmx.beta"
+        )
+
+        if (!containsAny(packageLower, browserPackages)) {
+            return false
+        }
+
+        val viewIdLower = viewId?.lowercase() ?: ""
+        val browserUiViewIdTokens = listOf(
+            "url_bar",
+            "location_bar",
+            "search_box_text",
+            "search_box"
+        )
+        if (containsAny(viewIdLower, browserUiViewIdTokens)) {
+            return true
+        }
+
+        val descriptor = listOfNotNull(hint, contentDesc)
+            .joinToString(separator = " ")
+            .lowercase()
+        val addressDescriptorTokens = listOf(
+            "url",
+            "uri",
+            "address",
+            "web address",
+            "网址",
+            "網址"
+        )
+        return containsAny(descriptor, addressDescriptorTokens)
     }
 
     private fun hideInputActivity() {

@@ -1,0 +1,174 @@
+--------- beginning of main
+07-08 12:27:09.704 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:09.705 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:09.705 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:09.705 D/InputActivity(31299): Starting activity on secondary display: id=2, name=內置畫面
+07-08 12:27:09.722 D/InputActivity(31299): Activity started successfully on secondary display
+07-08 12:27:09.779 D/InputAccessibilityService(31299): handleViewFocused: Detected EditText
+07-08 12:27:09.779 D/InputAccessibilityService(31299): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:27:09.781 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:09.782 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:09.782 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:09.782 D/InputActivity(31299): Starting activity on secondary display: id=2, name=內置畫面
+07-08 12:27:09.784 D/InputActivity(31299): Activity started successfully on secondary display
+07-08 12:27:09.790 D/InputActivity(31299): Activity running on display: id=2, name=內置畫面
+07-08 12:27:10.043 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:10.087 D/InputActivity(31299): Cleared target focus for persistent keyboard: false
+07-08 12:27:13.724 D/InputActivity(31299): Triggering target action for IME action: GO
+07-08 12:27:13.753 D/InputActivity(31299): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=false, actions=1:FOCUS,4:SELECT,8:CLEAR_SELECTION,16:CLICK,32:LONG_CLICK,64:ACCESSIBILITY_FOCUS,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,131072:SET_SELECTION,2097152:SET_TEXT,16908342:ACTION_16908342
+07-08 12:27:13.771 D/InputActivity(31299): Browser intent submit result: true, package=com.android.chrome, text=fffffggg
+07-08 12:27:13.948 D/InputAccessibilityService(31299): handleViewFocused: Focused view is not EditText
+07-08 12:27:13.948 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:13.948 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:14.107 D/InputAccessibilityService(31299): handleViewFocused: Focused view is not EditText
+07-08 12:27:14.107 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:14.107 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:15.924 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=fffffggg, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:15.927 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:15.927 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:15.927 D/InputActivity(31299): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:27:15.936 D/InputActivity(31299): Activity brought to secondary display successfully
+07-08 12:27:15.961 D/InputAccessibilityService(31299): handleViewFocused: Detected EditText
+07-08 12:27:15.967 D/InputAccessibilityService(31299): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:27:15.967 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=fffffggg, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:15.985 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:15.985 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:15.985 D/InputActivity(31299): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:27:15.989 D/InputActivity(31299): Activity brought to secondary display successfully
+07-08 12:27:16.139 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:16.141 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:16.159 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:16.164 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:19.179 D/InputActivity(31299): Triggering target action for IME action: GO
+07-08 12:27:19.188 D/InputActivity(31299): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=false, actions=16908342:ACTION_16908342,16908348:ACTION_16908348,16908372:IME_ENTER,1024:NEXT_HTML_ELEMENT,2048:PREVIOUS_HTML_ELEMENT,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,2097152:SET_TEXT,32768:PASTE,131072:SET_SELECTION,65536:CUT,16384:COPY,1:FOCUS,16:CLICK,128:CLEAR_ACCESSIBILITY_FOCUS
+07-08 12:27:19.205 D/InputActivity(31299): Browser intent submit result: true, package=com.android.chrome, text=fffffgggrfffggggg
+07-08 12:27:19.344 D/InputAccessibilityService(31299): packageName: com.android.chrome
+07-08 12:27:19.344 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:19.344 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:19.344 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:19.384 D/InputAccessibilityService(31299): handleViewFocused: Focused view is not EditText
+07-08 12:27:19.384 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:19.384 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:19.512 D/InputAccessibilityService(31299): handleViewFocused: Focused view is not EditText
+07-08 12:27:19.512 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:19.512 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:21.429 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:21.436 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:21.436 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:21.436 D/InputActivity(31299): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:27:21.449 D/InputActivity(31299): Activity brought to secondary display successfully
+07-08 12:27:21.472 D/InputAccessibilityService(31299): handleViewFocused: Detected EditText
+07-08 12:27:21.472 D/InputAccessibilityService(31299): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:27:21.473 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:21.482 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:21.482 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:21.482 D/InputActivity(31299): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:27:21.489 D/InputActivity(31299): Activity brought to secondary display successfully
+07-08 12:27:21.624 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:21.645 D/InputActivity(31299): Cleared target focus for persistent keyboard: false
+07-08 12:27:21.654 D/InputActivity(31299): Cleared target focus for persistent keyboard: false
+07-08 12:27:21.656 D/InputActivity(31299): Cleared target focus for persistent keyboard: false
+07-08 12:27:29.358 D/InputAccessibilityService(31299): handleViewFocused: Focused view is not EditText
+07-08 12:27:29.372 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:29.372 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:29.523 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=fffffgggrfffggggg, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:29.530 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:29.530 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:29.531 D/InputActivity(31299): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:27:29.540 D/InputActivity(31299): Activity brought to secondary display successfully
+07-08 12:27:29.576 D/InputAccessibilityService(31299): handleViewFocused: Detected EditText
+07-08 12:27:29.576 D/InputAccessibilityService(31299): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:27:29.577 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=fffffgggrfffggggg, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:29.584 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:29.584 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:29.584 D/InputActivity(31299): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:27:29.587 D/InputActivity(31299): Activity brought to secondary display successfully
+07-08 12:27:29.776 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:29.786 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:29.802 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:29.803 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:32.955 D/InputActivity(31299): Triggering target action for IME action: GO
+07-08 12:27:32.962 D/InputActivity(31299): Target before Enter: refreshed=true, package=com.android.chrome, class=android.widget.EditText, editable=true, focused=false, actions=16908342:ACTION_16908342,16908348:ACTION_16908348,16908372:IME_ENTER,1024:NEXT_HTML_ELEMENT,2048:PREVIOUS_HTML_ELEMENT,256:NEXT_AT_GRANULARITY,512:PREVIOUS_AT_GRANULARITY,2097152:SET_TEXT,32768:PASTE,131072:SET_SELECTION,65536:CUT,16384:COPY,1:FOCUS,16:CLICK,128:CLEAR_ACCESSIBILITY_FOCUS
+07-08 12:27:32.974 D/InputActivity(31299): Browser intent submit result: true, package=com.android.chrome, text=fffffgggrfffgggggffffccdvghh
+07-08 12:27:33.123 D/InputAccessibilityService(31299): packageName: com.android.chrome
+07-08 12:27:33.123 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:33.124 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:33.124 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:33.198 D/InputAccessibilityService(31299): handleViewFocused: Focused view is not EditText
+07-08 12:27:33.199 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:33.199 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:34.100 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.109 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.114 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.119 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.123 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.127 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.132 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.138 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.147 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.150 D/InputAccessibilityService(31299): handleViewFocused: Detected EditText
+07-08 12:27:34.150 D/InputAccessibilityService(31299): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:27:34.150 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.200 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.208 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.214 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.281 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.284 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.290 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.300 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.385 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=null
+07-08 12:27:34.713 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=com.android.chrome:id/url_bar
+07-08 12:27:34.746 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=com.android.chrome:id/url_bar
+07-08 12:27:34.747 D/InputAccessibilityService(31299): handleViewFocused: Detected EditText
+07-08 12:27:34.747 D/InputAccessibilityService(31299): handleViewFocused: className=android.widget.EditText, isEditable=true, isFocusable=true
+07-08 12:27:34.747 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=com.android.chrome:id/url_bar
+07-08 12:27:34.778 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=com.android.chrome:id/url_bar
+07-08 12:27:34.795 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=com.android.chrome:id/url_bar
+07-08 12:27:34.899 D/InputAccessibilityService(31299): Suppressing browser focus after navigation: package=com.android.chrome, viewId=com.android.chrome:id/url_bar
+07-08 12:27:35.045 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=com.android.chrome:id/url_bar, hint=搜尋 Google 或輸入網址, text=搜尋 Google 或輸入網址, inputType=655361, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:35.050 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:35.051 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:35.051 D/InputActivity(31299): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:27:35.067 D/InputActivity(31299): Activity brought to secondary display successfully
+07-08 12:27:35.200 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:35.228 D/InputActivity(31299): Cleared target focus for persistent keyboard: false
+07-08 12:27:35.635 D/InputAccessibilityService(31299): packageName: com.brucewang.inputaccessibility
+07-08 12:27:35.635 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:35.635 D/InputAccessibilityService(31299): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:27:35.637 D/InputAccessibilityService(31299): packageName: com.brucewang.inputaccessibility
+07-08 12:27:35.637 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:35.637 D/InputAccessibilityService(31299): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:27:35.736 D/InputAccessibilityService(31299): packageName: com.brucewang.inputaccessibility
+07-08 12:27:35.736 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:35.736 D/InputAccessibilityService(31299): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:27:35.972 D/InputAccessibilityService(31299): packageName: com.brucewang.inputaccessibility
+07-08 12:27:35.972 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:35.972 D/InputAccessibilityService(31299): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:27:36.142 D/InputAccessibilityService(31299): packageName: com.brucewang.inputaccessibility
+07-08 12:27:36.142 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:36.142 D/InputAccessibilityService(31299): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:27:36.320 D/InputAccessibilityService(31299): packageName: com.brucewang.inputaccessibility
+07-08 12:27:36.320 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:36.320 D/InputAccessibilityService(31299): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:27:36.494 D/InputAccessibilityService(31299): packageName: com.brucewang.inputaccessibility
+07-08 12:27:36.494 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:36.494 D/InputAccessibilityService(31299): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:27:36.678 D/InputAccessibilityService(31299): packageName: com.brucewang.inputaccessibility
+07-08 12:27:36.678 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:36.678 D/InputAccessibilityService(31299): Suppressing no-focus detach after reclaiming keyboard
+07-08 12:27:36.924 D/InputAccessibilityService(31299): packageName: com.brucewang.inputaccessibility
+07-08 12:27:36.924 D/InputAccessibilityService(31299): checkCurrentFocus: No focused EditText found, hiding InputActivity
+07-08 12:27:36.924 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:36.924 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:37.743 D/InputAccessibilityService(31299): handleViewFocused: Focused view is not EditText
+07-08 12:27:37.750 D/InputAccessibilityService(31299): hideInputActivity: Closing InputActivity
+07-08 12:27:37.750 D/InputActivity(31299): Keeping InputActivity open and detaching target
+07-08 12:27:37.790 D/InputAccessibilityService(31299): Showing InputActivity for EditText: package=com.android.chrome, viewId=null, hint=Google 搜尋 向 Google 發問 㩒兩下就可以搜尋 Google。, text=fffffgggrfffgggggffffccdvghh, inputType=0, imeOptions=2, allowEnterAsNewline=false, browserSubmitField=true
+07-08 12:27:37.793 D/InputActivity(31299): Display[0]: id=0, name=內置畫面, flags=139
+07-08 12:27:37.793 D/InputActivity(31299): Display[1]: id=2, name=內置畫面, flags=139
+07-08 12:27:37.793 D/InputActivity(31299): Bringing activity to secondary display: id=2, name=內置畫面
+07-08 12:27:37.798 D/InputActivity(31299): Activity brought to secondary display successfully
+07-08 12:27:37.935 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
+07-08 12:27:37.969 D/InputAccessibilityService(31299): handleViewFocused: Focused view is not EditText
+07-08 12:27:37.973 D/InputAccessibilityService(31299): Suppressing focus-loss detach after reclaiming keyboard
+07-08 12:27:37.975 D/InputActivity(31299): Cleared target focus for persistent keyboard: true
